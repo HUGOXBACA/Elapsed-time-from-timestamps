@@ -37,6 +37,7 @@ print(diff)
 
 
 for x in diff:
+     #following outputs in hours 
     x.total_seconds()/60/60
     print(x)
 avg = (diff[0]+diff[1]+diff[2]+diff[3]) / 3
